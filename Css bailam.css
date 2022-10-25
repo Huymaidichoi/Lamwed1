@@ -1,0 +1,263 @@
+.tong{
+    width: 860px;
+    padding-left: 300px;
+}
+body{
+    background-image: url('/images/bg-pattern.jpg');
+    background-size:cover;
+  
+}
+/* +++++++++++++++++++++++++++++++++++Menu  1++++++++++++++++++++++++++++++++++ */
+.menu ul li:hover a{
+    background: rgb(83, 82, 82);
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: aliceblue;
+    font-weight: bold;
+
+   
+}
+#Menu_id_ul{
+    display: flex;
+}
+.menu{
+    list-style: none;
+   
+}
+.menu ul {
+    background: rgb(2, 155, 150);
+    padding: 12px 12px;
+    list-style-type: none;
+     
+}
+/* +++++++++++++++++++++++++++++++++++Menu  2++++++++++++++++++++++++++++++++++ */
+.menu_2 ul li:hover a {
+    color: #fff;
+}
+.menu_2 ul li a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+
+   
+}
+.menu_2{
+    list-style: none;
+}
+.menu_2 ul {
+    background: rgb(92, 92, 92);
+    padding: 12px 12px;
+    list-style-type: none;
+     
+}
+.icon_menu_2 li a{
+ display: flex;
+}
+/* +++++++++++++++++++++++++++++++++++++Home ++++++++++++++++++++++++++++++++++ */
+#Thietke_Home{
+    padding: 5px 5px 5px 5px;
+    line-height: 22px ;
+}
+.duoi_home{
+    display: flex;
+}
+.trai_home_dong1{
+    background: aliceblue;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.trai_home_dong2{
+    background: aliceblue;
+    padding-left: 20px;
+    padding-top: 18px;
+    margin-top: 26px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+   
+    
+}
+#juan_de_la{
+    color:  rgb(2, 155, 150);
+    text-align: right;
+}
+.phai_home{
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.phai_home a img{
+    padding-bottom: 15px;
+}
+#tieude_nhanh_home{
+font-size: 22px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++About ++++++++++++++++++++++++++++++++++ */
+#tieude_about{
+    color:  rgb(2, 155, 150);
+    text-transform:uppercase;
+    font-size: 20px;
+    
+}
+#vanban_about{
+    display: block;
+    line-height: 30px ;
+    background: rgb(250, 250, 250);
+    padding: 20px 20px 150px 20px;
+}
+.vanban_giua_about{
+    display: flex;
+    padding-top: 20px;
+    
+}
+.vanban_giua_phai_about{
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid black;
+}
+#ABOUT_tieude{
+    font-size: 22px;
+    color:  rgb(5, 110, 106);
+}
+
+/* +++++++++++++++++++++++++++++++++++++Rooms ++++++++++++++++++++++++++++++++++ */
+#anh_ROOMS{
+    display: block;
+    background: rgb(250, 250, 250);
+   
+}
+.rooms_1{
+    display: flex;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    line-height: 35px ;
+    padding-left: 30px;
+}
+#tieude_rooms{
+    color:  rgb(2, 155, 150);
+    text-transform:uppercase;
+    font-size: 20px;
+}
+.rooms_gia_thue{
+    border: black solid 1px;
+    color:  rgb(2, 155, 150);
+    width: 110px;
+   padding-left: 20px;
+}
+.vanban_rooms{
+    padding-left: 20px;
+}
+#romms_1_phai{
+    padding-top: 75px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++CONTACT ++++++++++++++++++++++++++++++++++ */
+.vanban_Contact{
+    display: flex;
+    background: #fff;
+    line-height: 30px ;
+    padding-bottom: 500px;
+    padding-left: 30px;
+    
+}
+.input_contact_trai{
+    margin-top:  110px;
+    display: flex;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.input_contact_trai_trai input{
+    display: block;
+    margin-top: 23px;
+   margin-left: 30px;
+  
+}
+#Text_input_contact{
+    width: 230px;
+}
+#Text_input_contact_long{
+    width: 300px;
+    height: 170px;
+}
+
+.input_contact_trai_trai img{
+    display: block;
+    margin-top: 23px;
+   margin-left: 30px;
+  
+}
+/* +++++++++++++++++++++++++++++++++++++DIVE_SITE ++++++++++++++++++++++++++++++++++ */
+.DIVE_SITE{
+    display: flex;
+}
+.font_DIVE_SITE{
+    background: #fff;
+    line-height: 25px ;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#anh_DIVE_SITE{
+    padding-top: 80px;
+}
+#anh_DIVE_SITE1 a img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* +++++++++++++++++++++++++++++++++++++Foods ++++++++++++++++++++++++++++++++++ */
+.Foods{
+    display: block;
+   
+}
+.font_Foods{
+    background: #fff;
+    padding-left: 30px;
+}
+#anh_Foods a img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.vanban_Foods{
+    padding-top: 30px;
+}
+/* +++++++++++++++++++++++++++++++++++++NEWS ++++++++++++++++++++++++++++++++++ */
+.vanban_news{
+    background: #fff;
+    display: flex;
+    /* flex-wrap:wrap;
+    justify-content: space-between; */
+    padding-left: 30px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
+   
+}
+.vanban_trai_New{
+    padding-right: 10px;
+    border-right: 1px solid black;
+    flex:75% ;
+    margin-top: 40px;
+    
+
+}
+.vanban_phai_New{
+    display: block;
+    /* margin-left: 20px; */
+    margin-top: 60px;
+    padding-left: 30px;
+    flex:  25% ;
+    padding-right: 30px;
+}
+/* #hr_chieucao{
+    width: 1px;
+    height: 500px;
+} */
+/* .NEWS_Tieude{
+    padding-left: 50px;
+} */
